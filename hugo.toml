@@ -1,0 +1,4 @@
+baseURL = 'https://yuikct.cn/'
+languageCode = 'en-us'
+title = 'My '
+theme = "blowfish"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Yuikct</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Yuikct</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuikct@163.com (Yuzewei)</managingEditor>
+    <webMaster>yuikct@163.com (Yuzewei)</webMaster>
+    <copyright>Copyright © 2024 Yuzewei All Rights Reserved. Yuzewei 版权所有 粤ICP备2024343518号-1</copyright>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人经验</title>
+      <link>http://localhost:1313/categories/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <author>yuikct@163.com (Yuzewei)</author>
+      <guid>http://localhost:1313/categories/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E9%AA%8C/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
