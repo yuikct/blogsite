@@ -13,15 +13,15 @@ title = "Yuikct"
   # 这是否是 RTL 语言。设置为true从右到左重新排列内容。Blowfish 完全支持同时使用 RTL 和 LTR 语言，并将动态调整为两者。
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "/avatar.jpg"
-   secondaryLogo = "/avatar.jpg"
+  logo = "/logo.png"
+  secondaryLogo = "/avatar.jpg"
    description = "My awesome website"
-   copyright = "Copyright © 2024 Yuzewei All Rights Reserved. Yuzewei 版权所有 粤ICP备2024343518号-1"
+   copyright = "Copyright © 2024 Yuzewei All Rights Reserved. Yuzewei 版权所有 <br> [粤ICP备2024343518号-1](https://beian.miit.gov.cn/)"
 
 [params.author]
 name = "Yuzewei"
 email = "yuikct@163.com"
-   image = "/avatar.jpg"
+image = "/avatar.jpg"
 #   imageQuality = 96
    headline = "I'm only human"
 #   bio = "A little bit about you"

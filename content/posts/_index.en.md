@@ -1,7 +1,7 @@
 ---
-title: 关于
-description: 这是 林可锟 的个人博客
-date: '2022-02-28'
+title: 博客
+description: This is yuzewei 's Blog
+date: '2022-07-28'
 license: CC BY-NC-ND
 lastmod: '2024-07-13'
 menu:
@@ -11,4 +11,5 @@ menu:
             icon: user
 ---
 
-光宇光宇光宇光宇
+<hr>
+sdf

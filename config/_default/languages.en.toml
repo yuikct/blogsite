@@ -21,7 +21,7 @@ title = "Yuikct"
 [params.author]
 name = "Yuzewei"
 email = "yuikct@163.com"
-   image = "img/blowfish_logo.png"
+image = "/avatar.jpg"
 #   imageQuality = 96
    headline = "I'm only human"
 #   bio = "A little bit about you"

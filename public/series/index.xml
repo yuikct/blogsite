@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <managingEditor>yuikct@163.com (Yuzewei)</managingEditor>
     <webMaster>yuikct@163.com (Yuzewei)</webMaster>
-    <copyright>Copyright © 2024 Yuzewei All Rights Reserved. Yuzewei 版权所有 粤ICP备2024343518号-1</copyright>
+    <copyright>Copyright © 2024 Yuzewei All Rights Reserved. Yuzewei 版权所有 &lt;br&gt; [粤ICP备2024343518号-1](https://beian.miit.gov.cn/)</copyright>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

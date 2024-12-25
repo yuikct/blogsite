@@ -25,18 +25,19 @@ mainSections = ["posts"]
 # backgroundImageWidth = 1200
 
  # used as default for background images 
- defaultBackgroundImage = "IMAGE.jpg" 
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+ # defaultBackgroundImage = "/background.jpg" 
+ # used as default for featured images in all articles
+ # defaultFeaturedImage = "/background.jpg" 
 
  highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+ smartTOC = true
+ smartTOCHideUnfocusedChildren = true
 
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [header]
-  layout = "fixed-gradient" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -50,7 +51,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
    # used in: hero, and card
-   homepageImage = "/intro.jpg" 
+   homepageImage = "/background.jpg" 
   showRecent = true
   showRecentItems = 5
   showMoreLink = true
@@ -69,8 +70,10 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showAuthor = false
   # showAuthorBottom = true
   showHero = true
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "thumbAndBackground" 
+  # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundBlur = true 
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showDraftLabel = true
@@ -93,7 +96,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [list]
   showHero = true
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
@@ -107,23 +110,25 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
-
+# 网站地图
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
 
+# 分类法
 [taxonomy]
   showTermCount = true
   showHero = true
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
   showTableOfContents = false
   cardView = false
 
+# 术语
 [term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
@@ -132,6 +137,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   cardView = false
   cardViewScreenWidth = false
 
+# Firebase(Firebase 平台)
 [firebase]
   # apiKey = "XXXXXX"
   # authDomain = "XXXXXX"
@@ -141,10 +147,12 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # appId = "XXXXXX"
   # measurementId = "XXXXXX"
 
+# Fathom Analytics(一种网站分析工具)
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
 
+# Umami Analytics(一种网站分析工具)
 [umamiAnalytics]
   # websiteid = "ABC12345"
   # domain = "llama.yoursite.com"
@@ -156,6 +164,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # token = "XXXXXX"
   # enableTrackEvent = true
 
+# BuyMeACoffee(赞助平台)
 [buymeacoffee]
   # identifier = ""
   # globalWidget = true
@@ -163,6 +172,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # globalWidgetColor = "#FFDD00"
   # globalWidgetPosition = "Right"
 
+# 验证
 [verification]
   # google = ""
   # bing = ""
