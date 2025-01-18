@@ -20,6 +20,16 @@
   pageRef = "about"
   weight = 20
 
+ [[main]]
+   name = "心得"
+   pageRef = "study"
+   weight = 30
+#
+#  [[main]]
+#    name = "学习"
+#    pageRef = "study"
+#    weight = 40
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20

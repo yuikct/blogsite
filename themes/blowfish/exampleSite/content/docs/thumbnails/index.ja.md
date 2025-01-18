@@ -16,7 +16,7 @@ Blowfish was enhanced in order to make it easy to add visual support to your pos
 ```shell
 content
 └── awesome_article
-    ├── index.md
+    ├── _index.md
     └── featured.png
 ```
 
@@ -36,7 +36,7 @@ You need to change it from a single Markdown file into a folder. Create a direct
 ```shell
 content
 └── awesome_article
-    └── index.md
+    └── _index.md
 ```
 
 Then you just need to add an image like explained earlier. If you want to see a sample of this, you can consult [this sample]({{< ref "thumbnail_sample" >}}).

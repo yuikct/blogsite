@@ -31,7 +31,7 @@ content
 ```shell
 content
 └── awesome_article
-    ├── index.md
+    ├── _index.md
     └── featured.png
 ```
 

@@ -140,7 +140,7 @@ Here's a quick overview of a basic Blowfish project. All content is placed withi
 │       ├── first-post.md
 │       └── another-post
 │           ├── aardvark.jpg
-│           └── index.md
+│           └── _index.md
 └── themes
     └── blowfish
 ```

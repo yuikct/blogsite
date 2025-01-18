@@ -31,7 +31,7 @@ Inside the article you can now add an image file (almost all formats are support
 ```shell
 content
 └── awesome_article
-    ├── index.md
+    ├── _index.md
     └── featured.png
 ```
 

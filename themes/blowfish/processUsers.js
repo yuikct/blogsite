@@ -126,7 +126,7 @@ puppeteer
             if (!fs.existsSync(dir)) {
                 fs.mkdirSync(dir);
                 console.log(i, users[i].title);
-                fs.writeFileSync(dir + '/index.md', userMDFile);
+                fs.writeFileSync(dir + '/_index.md', userMDFile);
                 for (var j in targetLangs) {
                     var content = await translateFrontMatterTags(userMDFile, targetLangs[j], users[i].tags);
                     fs.writeFileSync(dir + '/index.' + targetLangs[j] + '.md', content);

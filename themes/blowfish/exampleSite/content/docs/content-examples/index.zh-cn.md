@@ -66,7 +66,7 @@ Creating a list page is as simple as making a sub-directory in the content folde
         ├── _index.md          # /projects
         ├── first-project.md   # /projects/first-project
         └── another-project
-            ├── index.md       # /projects/another-project
+            ├── _index.md       # /projects/another-project
             └── project.jpg
 ```
 
@@ -162,9 +162,9 @@ Hugo 中的页面叶子页面是一个标准的内容页面，它不包含子页
 └── content
     └── blog
         ├── first-post.md     # /blog/first-post
-        ├── second-post.md    # /blog/second-post
+        ├── 职场为何如此艰难.md    # /blog/职场为何如此艰难
         └── third-post
-            ├── index.md      # /blog/third-post
+            ├── _index.md      # /blog/third-post
             └── image.jpg
 ```
 

@@ -60,7 +60,7 @@ async function processFrontMatter(block) {
 
 async function processFile(filePath) {
     console.log("translating", filePath)
-    if (filePath.indexOf("index.md") > -1) {
+    if (filePath.indexOf("_index.md") > -1) {
 
         const targetFilePath = filePath.replace(".md", "." + targetLangIso + ".md");
 

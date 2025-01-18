@@ -69,7 +69,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showDateUpdated = false
   showAuthor = false
   # showAuthorBottom = true
-  showHero = true
+  showHero = false
   # valid options: basic, big, background, thumbAndBackground
   heroStyle = "thumbAndBackground" 
   # only used when heroStyle equals background or thumbAndBackground
@@ -179,3 +179,4 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # pinterest = ""
   # yandex = ""
   # fediverse = ""
+

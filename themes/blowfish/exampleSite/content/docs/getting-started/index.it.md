@@ -141,7 +141,7 @@ Ecco una rapida panoramica di un progetto base di Blowfish. Tutti i contenuti so
 │       ├── first-post.md
 │       └── another-post
 │           ├── aardvark.jpg
-│           └── index.md
+│           └── _index.md
 └── themes
     └── blowfish
 ```
